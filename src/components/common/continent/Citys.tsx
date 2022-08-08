@@ -1,7 +1,12 @@
 import { Grid, VStack, Text, useBreakpointValue, Center, Flex, Box } from "@chakra-ui/react";
+import { City } from "../../../dtos/Continent";
 import { Card } from "../../Card";
 
-export function Citys() {
+interface Props {
+  citys: City[];
+}
+
+export function Citys({ citys }: Props) {
 
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -19,12 +24,9 @@ export function Citys() {
       {
         isWideVersion ? (
           <Grid w="100%" templateColumns={`repeat(4, 1fr)`} >
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            {
+              citys.map(city => <Card key={city.name} city={city} />)
+            }
           </Grid>
         ) : (
           <Flex
@@ -33,12 +35,9 @@ export function Citys() {
             alignItems="center"
             justifyContent="center"
           >
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            {
+              citys.map(city => <Card key={city.name} city={city} />)
+            }
           </Flex>
         )
       }

@@ -1,6 +1,11 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
+import { City } from "../dtos/Continent";
 
-export function Card() {
+interface Props {
+  city: City;
+}
+
+export function Card({ city }: Props) {
   return (
     <Flex
       flexDir="column"
@@ -19,10 +24,10 @@ export function Card() {
         pb={25}
       >
         <div>
-          <Text fontWeight="600" fontSize={20} >Londres</Text>
-          <Text color="dark.info" fontWeight="500" fontSize={16} >Reino Unido</Text>
+          <Text fontWeight="600" fontSize={20} >{city.name}</Text>
+          <Text color="dark.info" fontWeight="500" fontSize={16} >{city.country}</Text>
         </div>
-        <Image src="/reino.png" width={30} h={30} />
+        <Image src={city.badge} width={30} h={30} borderRadius="50%" />
       </Flex>
     </Flex>
   )

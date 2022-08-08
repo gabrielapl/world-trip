@@ -1,4 +1,4 @@
-import { Center, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { useEffect, useState } from "react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -6,17 +6,23 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Slide } from "./Slide";
-
-const continents = [
-  {
-    banner: "/southAmerica.jpg"
-  },
-  {
-    banner: "/europe.png"
-  }
-]
+import { Continent } from "../../dtos/Continent";
+import { api } from "../../services/api";
 
 export function Carousel() {
+
+  const [continents, setContinents] = useState<Continent[]>([]);
+
+  useEffect(() => {
+    async function getContinents() {
+      const response = await api.get("/continents");
+
+      setContinents(response.data);
+    }
+
+    getContinents();
+  }, []);
+
   return (
     <Swiper
       className="mySwiper"
@@ -26,7 +32,7 @@ export function Carousel() {
     >
       {
         continents.map(continent => (
-          <SwiperSlide key={continent.banner} >
+          <SwiperSlide key={continent.id} >
 
             <Slide data={continent} />
 

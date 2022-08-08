@@ -1,13 +1,12 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
-
-type Data = {
-  name: string
-}
+import continents from '../../../../db/continents.json';
+import { Continent } from '../../../dtos/Continent';
 
 export default function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
-  res.status(200).json({ name: 'John Doe' })
+  res: NextApiResponse<Continent[]>
+) { 
+
+  res.status(200).json(continents);
 }

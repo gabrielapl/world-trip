@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Cidade do México",
+    "country": "México",
+    "banner": "",
+    "badge": "https://flagcdn.com/mx.svg",
+    "continentID": "1"
+  },
+  {
+    "name": "Nova Iorque",
+    "country": "Estados Unidos",
+    "banner": "",
+    "badge": "https://flagcdn.com/us.svg",
+    "continentID": "1"
+  },
+  {
+    "name": "Toronto",
+    "country": "Canadá",
+    "banner": "",
+    "badge": "https://flagcdn.com/ca.svg",
+    "continentID": "1"
+  },
+  {
+    "name": "Ottawa",
+    "country": "Canadá",
+    "banner": "",
+    "badge": "https://flagcdn.com/ca.svg",
+    "continentID": "1"
+  },
+  {
+    "name": "Chicago",
+    "country": "Estados Unidos",
+    "banner": "",
+    "badge": "https://flagcdn.com/us.svg",
+    "continentID": "1"
+  },
+
+  {
+    "name": "São Paulo",
+    "country": "Brasil",
+    "banner": "",
+    "badge": "https://flagcdn.com/w320/br.png",
+    "continentID": "2"
+  },
+  {
+    "name": "Santiago",
+    "country": "Chile",
+    "banner": "",
+    "badge": "https://flagcdn.com/w320/cl.png",
+    "continentID": "2"
+  },
+  {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "banner": "",
+    "badge": "https://flagcdn.com/w320/ar.png",
+    "continentID": "2"
+  },
+  {
+    "name": "Manaus",
+    "country": "Brasil",
+    "banner": "",
+    "badge": "https://flagcdn.com/w320/br.png",
+    "continentID": "2"
+  },
+
+  {
+    "name": "Xangai",
+    "country": "China",
+    "banner": "",
+    "badge": "https://flagcdn.com/sg.svg",
+    "continentID": "3"
+  },
+  {
+    "name": "Tóquio",
+    "country": "Japão",
+    "banner": "",
+    "badge": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAB5CAMAAACjkCtXAAAAeFBMVEX///+8AC22AAC7ACq5AB26ACG7ACX++vu4AA24ABG5ABm5ABv+/Pzx1drOcHe7Eifmt7zy297qwce8Gy/rx8vfp6rDOE356+3alpv68PL25efdn6XVi43TfYLQdnzGRlnITl3KXmfBNETFTVbDRk3JVWPHWF++LDdX00ngAAACi0lEQVR4nO2bi5KqMAxAsbS83+IKIqLruv7/H166zN7VXVEenYbM5HzBmU5Ik5AaBkEQBEEQBEEQBEEQBBaCwLaDANpiDHaYVPv6EEWHel8loQ3tM4AyrZprLHyfcyE4930RX5sqLaG9nhIWZ+ZY5uoO03LYcR9Cu/Vh50fuW6uHWD4/5ouMluzExGPnDsFOGbTjH9KL23PQN0fuXlJoz3uqmL+SlvC4gja9Yffpmq+dJab7uYO2/SZ894ZJS7z3heSUhL2M6lsslkAbSzJvYID8DxRvARklYSOtW2/4887FaOvWW+Sw1qkzwbr1dkATeHl+ejH2I86QxVU0IvPd40Vw1hmbar1aMbB0sr1OCuwO87oF0i4mh4jEK2CsdzNCRMJgqpODP0/bP0BYh+sZkS0x1xBF1bzIlkBEd/C7051w3Kb+7nJOzv6G6S9NoonX+i1C+1VZfsyOkTZKPnRXJvmojqYPS3eUbFwV2u5Gs3Y0aMDwCq47uN/UBMmbXutg6GDkOaardwK+VZC1JUxv9Zqq0tbbU+aqtPVWUyqu9i9tva0ZaetEWWzrvd2RZhKkeRvpLYm0JsFaAW4cFdra622k3Q3SXhJp567kngSYk9gKplIWwM4Dzhkg1omrcZh53B7IfBvr3wSk/26M3bw/ZWCLJTj/S875KoG+xw6k/9yRbjhg3SfBur3TphM+dleKL2BXqj1vZ9xmmrOAs5bg3ANsr8vT8K3L02K2Lg2kO64G1o3iluzyfGnUYpdFZJDf2HnDvf5t+WaZ2/KSsDg+epvgsqZYTP54iHwJso6F73UvQbyvlyDFwl+CdJRhUhV1HUV1XSB5d/ODfOUE7UAQBEEQBEEQBEEQBDGcf6ysKSqK2rjgAAAAAElFTkSuQmCC",
+    "continentID": "3"
+  },
+
+  {
+    "name": "Cairo",
+    "country": "Egito",
+    "banner": "",
+    "badge": "https://flagcdn.com/eg.svg",
+    "continentID": "4"
+  },
+  {
+    "name": "Gizé",
+    "country": "Egito",
+    "banner": "",
+    "badge": "https://flagcdn.com/eg.svg",
+    "continentID": "4"
+  },
+
+  {
+    "name": "Londres",
+    "country": "Reino Unido",
+    "banner": "",
+    "badge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0E6teYqqeIx_YOuXLM2vZJ87FR-N6GU61WnOaaPg&s",
+    "continentID": "5"
+  },
+  {
+    "name": "São Petersburgo",
+    "country": "Rússia",
+    "banner": "",
+    "badge": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAAB5CAMAAACjkCtXAAAAGFBMVEX////VKx4AOaZ6fb8AMaQAOahsNYrfKgDVyLDSAAAAe0lEQVR4nO3OgQmEAAwAsfrqu//GTuFBIZkgMwAAAAAAAAAfO1eaa6X5raRd0i5pl7RL2iXtknZJu6Rd0i5pl7RL2iXtknZJu6Rd0i7NvdL8V5pnpTlW0i5pl7RL2iXtknZJu6Rd0i5pl7RL2iXtknZJu6Rd0i5pl7RLL6djYh2fM9n8AAAAAElFTkSuQmCC",
+    "continentID": "5"
+  },
+
+  {
+    "name": "Sydney",
+    "country": "Austrália",
+    "banner": "",
+    "badge": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAA9CAMAAABV2o0CAAAAtFBMVEUBIWn////kACsAIWnkACTiAAL3z9LpXGLjABsAGmbwmp0AAF8AAFy4uckAAFrl5+0AHmh6fZ4AEmT6290AFmX1pKbJ0t4AAFHFx9QADmM/SX3qYmrkDyj51tna3OXwnqHzACGWFU1GUIE4RHvw8vb75eguPXdeZo/mN0ZrcpfufIQAB2GQlK7pABaprsGbZ4SEh6WeobhVXYknM3D5Y2TwAADrcHYgLW4AAEOTADSXKVesdI6IuEfXAAAEgElEQVRYhe2YbXuiOhCGSaNbUxACRgHryxYoLmop6tn2vPz//3USQAiBoGDX/bJPr3rZkuROMpOZCcrzBDCN5xqCCid1DJ5GDw8PoycwVvkHEGlzB0wfBsPHiV7p0lXDYQ53/ApcgmbgGZguhhQMgH0TejrKRmHwuV7CG9EQ6Qw8OHe5DZ0vYZnBvWLlDWi6Yi8DnzdKu4WspKMN69teQ1OwL87zpkWzPRRGzBxOQOc25ueoowtkdJme7eOCs7mGBHQKXgtNWldEsHtwMbm0L7n3jMolzXWNQ2tV56r6o4RsEhWo9LOlHcxUM2QYF+jYr86LuUMm+bBkA1b0Z0Na5qedpduhA9bUmI/fUkJQoOm3YTGncWjrRR85G9tj1tjGLWiD0yoA4PX1NVscKNDgdUL/m/0vWHHtA2k0QzTgZaZpcQkg1zpFr1taSEMKDjcJfZ5swpZlP8r1Y0HRix/yBn9Z0mGx6wETeG7bhg/kYmTKljd4a/OzKNKiqM3LlIcb9L3t5GCiENx6BH8VWoH5729AX9ZQrlE6/kje4GcHNK473DepltsBJQ+2S3kL/UouhNgPsRj9fs25FsiKqiUHTRVsb5aK9kE64HK7/dhOuGiWavrxsaXT2EdcD/e6RePPVeIY0UoIbVaune5nsW/ySK38BBynQDvZgyV9sFiD2VzfnTsJi5MGTStiAyRqwyNWL+Tg5+HwbQpmns0lTXvOwacMXs+ZLPt5Mra2Z90Pas3VWM1VHZumxUqpQFNqObMhm5lQOlMrumo405vWRZNJbFBTBoYjoGFl3NF53GqV0ji7Cpw4yQF4TnPoVO0YBI4tTIwWKKWNB+VuimUhrDQcZQ35cXz2zGlOo1BbHcOVKjzjxkt96FxzNRTDle1hs/TKJcLdkR2PGDebG80t4osRXWbCpitAdufhtr0419BKmDnprkoSNJ1RLZfw5uMdt/niIxyFEgNdOwJG8HfdieVi4LdF3WkZ+o3lZOG6Vzrc5Pknx4G7+OAaSp0sn8v7Py8v/x5iTzyqlhm/vzC9x2Y1dNCVe3EcH+L4P96d0VFFYX27kS8tFwiNBXin1mOEpZK04CVqrQyCSE1VHZQOUU9Plm18ip59H1lmAILY+h1sqI+BcdtVuDd650S1UHKdOhyVZrSys8Q0fSX582Y2VNquZvJ+7ti9v51SIjqBEyr+uhcZs5Pu7sHeZae4vZT/WpFo7OuWTq/I9NMft19gvlY0wYJVMqeRep7Qbze+r+km/MnVvDf7eTftzIJs7u5KVrA9y8mz1rcSXy9XjYtVx+qVpb6gXjPGWhLwF5ykS/GRCdJMjboHBHyagaqcrp4G6X3GobeU7mxdJ6FnpFTDC11b70w+JD7wk0P3QEwrF6TmaA3hHhuH0s6on72VABiWAYJe7kJ0J70R9AqDKAQGIcQA4RVveGudj/mWHXt0Zm856VUC4fb3nBJBxUqjsNUr6REzLWOJb/bZNEg2hmZsLr6Ubu6Msr1Cl964NwsdT+TUa7uVsj7ombWoc0vufn/0R/fT/3gOaKIFHJzUAAAAAElFTkSuQmCC",
+    "continentID": "6"
+  },
+  {
+    "name": "Melbourne",
+    "country": "Austrália",
+    "banner": "",
+    "badge": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAA9CAMAAABV2o0CAAAAtFBMVEUBIWn////kACsAIWnkACTiAAL3z9LpXGLjABsAGmbwmp0AAF8AAFy4uckAAFrl5+0AHmh6fZ4AEmT6290AFmX1pKbJ0t4AAFHFx9QADmM/SX3qYmrkDyj51tna3OXwnqHzACGWFU1GUIE4RHvw8vb75eguPXdeZo/mN0ZrcpfufIQAB2GQlK7pABaprsGbZ4SEh6WeobhVXYknM3D5Y2TwAADrcHYgLW4AAEOTADSXKVesdI6IuEfXAAAEgElEQVRYhe2YbXuiOhCGSaNbUxACRgHryxYoLmop6tn2vPz//3USQAiBoGDX/bJPr3rZkuROMpOZCcrzBDCN5xqCCid1DJ5GDw8PoycwVvkHEGlzB0wfBsPHiV7p0lXDYQ53/ApcgmbgGZguhhQMgH0TejrKRmHwuV7CG9EQ6Qw8OHe5DZ0vYZnBvWLlDWi6Yi8DnzdKu4WspKMN69teQ1OwL87zpkWzPRRGzBxOQOc25ueoowtkdJme7eOCs7mGBHQKXgtNWldEsHtwMbm0L7n3jMolzXWNQ2tV56r6o4RsEhWo9LOlHcxUM2QYF+jYr86LuUMm+bBkA1b0Z0Na5qedpduhA9bUmI/fUkJQoOm3YTGncWjrRR85G9tj1tjGLWiD0yoA4PX1NVscKNDgdUL/m/0vWHHtA2k0QzTgZaZpcQkg1zpFr1taSEMKDjcJfZ5swpZlP8r1Y0HRix/yBn9Z0mGx6wETeG7bhg/kYmTKljd4a/OzKNKiqM3LlIcb9L3t5GCiENx6BH8VWoH5729AX9ZQrlE6/kje4GcHNK473DepltsBJQ+2S3kL/UouhNgPsRj9fs25FsiKqiUHTRVsb5aK9kE64HK7/dhOuGiWavrxsaXT2EdcD/e6RePPVeIY0UoIbVaune5nsW/ySK38BBynQDvZgyV9sFiD2VzfnTsJi5MGTStiAyRqwyNWL+Tg5+HwbQpmns0lTXvOwacMXs+ZLPt5Mra2Z90Pas3VWM1VHZumxUqpQFNqObMhm5lQOlMrumo405vWRZNJbFBTBoYjoGFl3NF53GqV0ji7Cpw4yQF4TnPoVO0YBI4tTIwWKKWNB+VuimUhrDQcZQ35cXz2zGlOo1BbHcOVKjzjxkt96FxzNRTDle1hs/TKJcLdkR2PGDebG80t4osRXWbCpitAdufhtr0419BKmDnprkoSNJ1RLZfw5uMdt/niIxyFEgNdOwJG8HfdieVi4LdF3WkZ+o3lZOG6Vzrc5Pknx4G7+OAaSp0sn8v7Py8v/x5iTzyqlhm/vzC9x2Y1dNCVe3EcH+L4P96d0VFFYX27kS8tFwiNBXin1mOEpZK04CVqrQyCSE1VHZQOUU9Plm18ip59H1lmAILY+h1sqI+BcdtVuDd650S1UHKdOhyVZrSys8Q0fSX582Y2VNquZvJ+7ti9v51SIjqBEyr+uhcZs5Pu7sHeZae4vZT/WpFo7OuWTq/I9NMft19gvlY0wYJVMqeRep7Qbze+r+km/MnVvDf7eTftzIJs7u5KVrA9y8mz1rcSXy9XjYtVx+qVpb6gXjPGWhLwF5ykS/GRCdJMjboHBHyagaqcrp4G6X3GobeU7mxdJ6FnpFTDC11b70w+JD7wk0P3QEwrF6TmaA3hHhuH0s6on72VABiWAYJe7kJ0J70R9AqDKAQGIcQA4RVveGudj/mWHXt0Zm856VUC4fb3nBJBxUqjsNUr6REzLWOJb/bZNEg2hmZsLr6Ubu6Msr1Cl964NwsdT+TUa7uVsj7ombWoc0vufn/0R/fT/3gOaKIFHJzUAAAAAElFTkSuQmCC",
+    "continentID": "6"
+  }
+]

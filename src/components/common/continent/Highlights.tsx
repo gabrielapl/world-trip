@@ -1,7 +1,14 @@
 import { Flex, HStack, Text, useBreakpointValue } from "@chakra-ui/react";
 import { Info } from "../../Info";
 
-export function Highlights() {
+interface Props {
+  countrys: string;
+  languages: string;
+  topOneHundred: string;
+  description: string;
+}
+
+export function Highlights({ countrys, languages, topOneHundred, description }: Props) {
 
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -23,21 +30,21 @@ export function Highlights() {
         maxW={ isWideVersion ? "50%" : "100%" }
         mb={ isWideVersion ? 0 : 4 }
       >
-        A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+        {description}
       </Text>
 
       <HStack justifyContent="space-between" spacing={42} >
         <Info
           title="países"
-          description="50"
+          description={countrys}
         />
         <Info
           title="línguas"
-          description="60"
+          description={languages}
         />
         <Info
           title="cidades +100 "
-          description="27"
+          description={topOneHundred}
           tooltip
         />
       </HStack>
